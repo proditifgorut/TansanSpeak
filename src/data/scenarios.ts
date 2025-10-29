@@ -1,0 +1,358 @@
+import { Scenario } from '../types';
+
+export const scenarios: Scenario[] = [
+  {
+    id: 'coffee-shop',
+    title: 'scenarios.coffeeShop.title',
+    description: 'scenarios.coffeeShop.description',
+    difficulty: 'beginner',
+    category: 'Daily Life',
+    xpReward: 50,
+    icon: '☕',
+    conversations: [
+      {
+        id: 1,
+        speaker: 'ai',
+        text: 'scenarios.coffeeShop.conversations.0',
+      },
+      {
+        id: 2,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.coffeeShop.conversations.1',
+          'scenarios.coffeeShop.conversations.2',
+          'scenarios.coffeeShop.conversations.3',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 3,
+        speaker: 'ai',
+        text: 'scenarios.coffeeShop.conversations.4',
+      },
+      {
+        id: 4,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.coffeeShop.conversations.5',
+          'scenarios.coffeeShop.conversations.6',
+          'scenarios.coffeeShop.conversations.7',
+        ],
+        correctOption: 1,
+      },
+      {
+        id: 5,
+        speaker: 'ai',
+        text: 'scenarios.coffeeShop.conversations.8',
+      },
+      {
+        id: 6,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.coffeeShop.conversations.9',
+          'scenarios.coffeeShop.conversations.10',
+          'scenarios.coffeeShop.conversations.11',
+        ],
+        correctOption: 0,
+      },
+    ],
+  },
+  {
+    id: 'job-interview',
+    title: 'scenarios.jobInterview.title',
+    description: 'scenarios.jobInterview.description',
+    difficulty: 'intermediate',
+    category: 'Professional',
+    xpReward: 100,
+    icon: '💼',
+    conversations: [
+      {
+        id: 1,
+        speaker: 'ai',
+        text: 'scenarios.jobInterview.conversations.0',
+      },
+      {
+        id: 2,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.jobInterview.conversations.1',
+          'scenarios.jobInterview.conversations.2',
+          'scenarios.jobInterview.conversations.3',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 3,
+        speaker: 'ai',
+        text: 'scenarios.jobInterview.conversations.4',
+      },
+      {
+        id: 4,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.jobInterview.conversations.5',
+          'scenarios.jobInterview.conversations.6',
+          'scenarios.jobInterview.conversations.7',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 5,
+        speaker: 'ai',
+        text: 'scenarios.jobInterview.conversations.8',
+      },
+      {
+        id: 6,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.jobInterview.conversations.9',
+          'scenarios.jobInterview.conversations.10',
+          'scenarios.jobInterview.conversations.11',
+        ],
+        correctOption: 0,
+      },
+    ],
+  },
+  {
+    id: 'restaurant',
+    title: 'scenarios.restaurant.title',
+    description: 'scenarios.restaurant.description',
+    difficulty: 'beginner',
+    category: 'Daily Life',
+    xpReward: 50,
+    icon: '🍽️',
+    conversations: [
+      {
+        id: 1,
+        speaker: 'ai',
+        text: 'scenarios.restaurant.conversations.0',
+      },
+      {
+        id: 2,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.restaurant.conversations.1',
+          'scenarios.restaurant.conversations.2',
+          'scenarios.restaurant.conversations.3',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 3,
+        speaker: 'ai',
+        text: 'scenarios.restaurant.conversations.4',
+      },
+      {
+        id: 4,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.restaurant.conversations.5',
+          'scenarios.restaurant.conversations.6',
+          'scenarios.restaurant.conversations.7',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 5,
+        speaker: 'ai',
+        text: 'scenarios.restaurant.conversations.8',
+      },
+      {
+        id: 6,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.restaurant.conversations.9',
+          'scenarios.restaurant.conversations.10',
+          'scenarios.restaurant.conversations.11',
+        ],
+        correctOption: 0,
+      },
+    ],
+  },
+  {
+    id: 'doctor-appointment',
+    title: 'scenarios.doctorAppointment.title',
+    description: 'scenarios.doctorAppointment.description',
+    difficulty: 'intermediate',
+    category: 'Healthcare',
+    xpReward: 75,
+    icon: '🏥',
+    conversations: [
+      {
+        id: 1,
+        speaker: 'ai',
+        text: 'scenarios.doctorAppointment.conversations.0',
+      },
+      {
+        id: 2,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.doctorAppointment.conversations.1',
+          'scenarios.doctorAppointment.conversations.2',
+          'scenarios.doctorAppointment.conversations.3',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 3,
+        speaker: 'ai',
+        text: 'scenarios.doctorAppointment.conversations.4',
+      },
+      {
+        id: 4,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.doctorAppointment.conversations.5',
+          'scenarios.doctorAppointment.conversations.6',
+          'scenarios.doctorAppointment.conversations.7',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 5,
+        speaker: 'ai',
+        text: 'scenarios.doctorAppointment.conversations.8',
+      },
+      {
+        id: 6,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.doctorAppointment.conversations.9',
+          'scenarios.doctorAppointment.conversations.10',
+          'scenarios.doctorAppointment.conversations.11',
+        ],
+        correctOption: 0,
+      },
+    ],
+  },
+  {
+    id: 'hotel-checkin',
+    title: 'scenarios.hotelCheckin.title',
+    description: 'scenarios.hotelCheckin.description',
+    difficulty: 'beginner',
+    category: 'Travel',
+    xpReward: 50,
+    icon: '🏨',
+    conversations: [
+      {
+        id: 1,
+        speaker: 'ai',
+        text: 'scenarios.hotelCheckin.conversations.0',
+      },
+      {
+        id: 2,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.hotelCheckin.conversations.1',
+          'scenarios.hotelCheckin.conversations.2',
+          'scenarios.hotelCheckin.conversations.3',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 3,
+        speaker: 'ai',
+        text: 'scenarios.hotelCheckin.conversations.4',
+      },
+      {
+        id: 4,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.hotelCheckin.conversations.5',
+          'scenarios.hotelCheckin.conversations.6',
+          'scenarios.hotelCheckin.conversations.7',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 5,
+        speaker: 'ai',
+        text: 'scenarios.hotelCheckin.conversations.8',
+      },
+      {
+        id: 6,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.hotelCheckin.conversations.9',
+          'scenarios.hotelCheckin.conversations.10',
+          'scenarios.hotelCheckin.conversations.11',
+        ],
+        correctOption: 0,
+      },
+    ],
+  },
+  {
+    id: 'business-presentation',
+    title: 'scenarios.businessPresentation.title',
+    description: 'scenarios.businessPresentation.description',
+    difficulty: 'advanced',
+    category: 'Professional',
+    xpReward: 150,
+    icon: '📊',
+    conversations: [
+      {
+        id: 1,
+        speaker: 'ai',
+        text: 'scenarios.businessPresentation.conversations.0',
+      },
+      {
+        id: 2,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.businessPresentation.conversations.1',
+          'scenarios.businessPresentation.conversations.2',
+          'scenarios.businessPresentation.conversations.3',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 3,
+        speaker: 'ai',
+        text: 'scenarios.businessPresentation.conversations.4',
+      },
+      {
+        id: 4,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.businessPresentation.conversations.5',
+          'scenarios.businessPresentation.conversations.6',
+          'scenarios.businessPresentation.conversations.7',
+        ],
+        correctOption: 0,
+      },
+      {
+        id: 5,
+        speaker: 'ai',
+        text: 'scenarios.businessPresentation.conversations.8',
+      },
+      {
+        id: 6,
+        speaker: 'user',
+        text: '',
+        options: [
+          'scenarios.businessPresentation.conversations.9',
+          'scenarios.businessPresentation.conversations.10',
+          'scenarios.businessPresentation.conversations.11',
+        ],
+        correctOption: 0,
+      },
+    ],
+  },
+];

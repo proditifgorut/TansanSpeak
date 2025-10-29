@@ -1,0 +1,231 @@
+{
+  "header": {
+    "appName": "Tansan Speak",
+    "xp": "XP",
+    "home": "Beranda",
+    "scenarios": "Skenario",
+    "profile": "Profil"
+  },
+  "language": {
+    "en": "Inggris",
+    "id": "Indonesia"
+  },
+  "landingPage": {
+    "title1": "Kuasai Bahasa Inggris",
+    "title2": "Melalui Permainan Peran",
+    "subtitle": "Latih percakapan nyata, bangun kepercayaan diri, dan bicara bahasa Inggris secara alami dengan skenario interaktif.",
+    "startLearning": "Mulai Belajar Gratis",
+    "viewProgress": "Lihat Progres",
+    "demo": {
+      "scenarioTitle": "Skenario Kedai Kopi",
+      "level": "Tingkat Pemula",
+      "aiLine": "Selamat pagi! Ada yang bisa saya bantu hari ini?",
+      "userLine": "Hai! Boleh saya pesan satu cappuccino ukuran besar?",
+      "ai": "AI",
+      "you": "Anda"
+    },
+    "features": {
+      "title": "Mengapa Memilih Tansan Speak?",
+      "subtitle": "Cara paling menarik untuk berlatih percakapan bahasa Inggris.",
+      "realConversations": {
+        "title": "Percakapan Nyata",
+        "description": "Berlatih dengan skenario permainan peran bertenaga AI dari kehidupan sehari-hari."
+      },
+      "instantFeedback": {
+        "title": "Umpan Balik Instan",
+        "description": "Dapatkan koreksi dan saran langsung untuk meningkatkan kemampuan Anda."
+      },
+      "gamifiedLearning": {
+        "title": "Pembelajaran Gamifikasi",
+        "description": "Dapatkan XP, pertahankan rentetan, dan buka pencapaian seiring kemajuan Anda."
+      },
+      "diverseScenarios": {
+        "title": "Skenario Beragam",
+        "description": "Dari kedai kopi hingga wawancara kerja, latih situasi dunia nyata."
+      }
+    },
+    "cta": {
+      "title": "Siap Mulai Berbicara?",
+      "subtitle": "Bergabunglah dengan ribuan pelajar yang meningkatkan bahasa Inggris mereka setiap hari.",
+      "button": "Jelajahi Skenario"
+    }
+  },
+  "scenariosPage": {
+    "title": "Skenario Latihan",
+    "subtitle": "Pilih skenario percakapan untuk melatih kemampuan bahasa Inggris Anda.",
+    "filterDifficulty": "Kesulitan:",
+    "filterCategory": "Kategori:",
+    "all": "Semua",
+    "beginner": "Pemula",
+    "intermediate": "Menengah",
+    "advanced": "Lanjutan",
+    "dailyLife": "Sehari-hari",
+    "professional": "Profesional",
+    "healthcare": "Kesehatan",
+    "travel": "Perjalanan",
+    "unlockPrompt": "Capai Level 3 untuk membuka",
+    "noScenarios": "Tidak ada skenario yang ditemukan untuk filter yang dipilih."
+  },
+  "practicePage": {
+    "backToScenarios": "Kembali ke Skenario",
+    "progress": "Progres",
+    "score": "Skor",
+    "chooseResponse": "Pilih respons Anda:",
+    "scenarioNotFound": "Skenario tidak ditemukan",
+    "completion": {
+      "title": "Skenario Selesai!",
+      "accuracy": "Akurasi",
+      "xpEarned": "XP Diperoleh",
+      "tryAgain": "Coba Lagi",
+      "moreScenarios": "Skenario Lain"
+    }
+  },
+  "profilePage": {
+    "title": "Progres Anda",
+    "subtitle": "Teruslah berusaha dengan baik!",
+    "totalXP": "Total XP",
+    "dayStreak": "Rentetan Hari",
+    "level": "Level",
+    "completed": "Selesai",
+    "dailyGoal": {
+      "title": "Target Harian",
+      "xp": "XP",
+      "achieved": "🎉 Target harian tercapai! Kerja bagus!",
+      "toGo": "{{count}} XP lagi untuk mencapai target Anda"
+    },
+    "completionRate": {
+      "title": "Tingkat Penyelesaian",
+      "scenarios": "skenario",
+      "description": "{{rate}}% skenario telah diselesaikan"
+    },
+    "achievements": {
+      "title": "Pencapaian",
+      "firstSteps": {
+        "title": "Langkah Pertama",
+        "description": "Selesaikan skenario pertamamu"
+      },
+      "conversationMaster": {
+        "title": "Master Percakapan",
+        "description": "Selesaikan 5 skenario"
+      },
+      "streakChampion": {
+        "title": "Juara Rentetan",
+        "description": "Pertahankan rentetan 7 hari"
+      },
+      "xpCollector": {
+        "title": "Pengumpul XP",
+        "description": "Dapatkan 1000 XP"
+      }
+    }
+  },
+  "scenarios": {
+    "coffeeShop": {
+      "title": "Memesan di Kedai Kopi",
+      "description": "Latih memesan minuman favorit Anda dan basa-basi dengan barista.",
+      "conversations": [
+        "Selamat pagi! Selamat datang di Sunrise Café. Ada yang bisa saya bantu hari ini?",
+        "Hai! Boleh saya pesan satu cappuccino ukuran besar?",
+        "Beri aku kopi sekarang!",
+        "Saya mau kopi paling besar yang kamu punya.",
+        "Tentu saja! Apakah Anda ingin tambahan gula atau perasa?",
+        "Cukup gula saja, terima kasih.",
+        "Tidak, terima kasih.",
+        "Ya, apa pun yang Anda rekomendasikan.",
+        "Sempurna! Totalnya $4.50. Mau bayar tunai atau kartu?",
+        "Kartu, tolong.",
+        "Saya akan bayar dengan kartu.",
+        "Ini kartu kredit saya."
+      ]
+    },
+    "jobInterview": {
+      "title": "Wawancara Kerja",
+      "description": "Hadapi wawancara kerja profesional dengan percaya diri.",
+      "conversations": [
+        "Selamat siang! Silakan duduk. Terima kasih sudah datang hari ini.",
+        "Terima kasih telah mengundang saya. Saya senang berada di sini!",
+        "Terima kasih. Mari kita mulai.",
+        "Hai, kantor Anda bagus.",
+        "Bisakah Anda ceritakan sedikit tentang diri Anda dan mengapa Anda tertarik dengan posisi ini?",
+        "Saya memiliki 5 tahun pengalaman di bidang pemasaran dan saya bersemangat tentang strategi digital.",
+        "Saya butuh pekerjaan dan yang ini sepertinya oke.",
+        "Yah, saya seorang pekerja keras yang suka tantangan.",
+        "Itu mengesankan. Apa yang Anda anggap sebagai kekuatan terbesar Anda?",
+        "Saya sangat baik dalam bekerja di bawah tekanan dan memenuhi tenggat waktu yang ketat.",
+        "Saya sempurna dalam semua yang saya lakukan.",
+        "Saya tidak punya kelemahan."
+      ]
+    },
+    "restaurant": {
+      "title": "Makan di Restoran",
+      "description": "Pesan makanan, buat permintaan khusus, dan berinteraksi dengan staf restoran.",
+      "conversations": [
+        "Selamat malam! Selamat datang di restoran kami. Apakah Anda punya reservasi?",
+        "Ya, saya punya reservasi untuk dua orang atas nama Smith.",
+        "Tidak, tapi saya mau meja sekarang.",
+        "Saya rasa begitu, mungkin?",
+        "Sempurna! Lewat sini, silakan. Ini meja Anda. Bisa saya mulai dengan minuman?",
+        "Bolehkah saya minta segelas air dan menu?",
+        "Air. Menu.",
+        "Saya akan lihat menunya dulu.",
+        "Tentu saja! Saya akan segera kembali. Apakah Anda siap memesan, atau butuh beberapa menit lagi?",
+        "Bolehkah kami minta beberapa menit lagi?",
+        "Belum siap.",
+        "Beri kami waktu."
+      ]
+    },
+    "doctorAppointment": {
+      "title": "Janji Temu Dokter",
+      "description": "Diskusikan gejala dan masalah medis dengan profesional kesehatan.",
+      "conversations": [
+        "Halo! Bagaimana perasaan Anda hari ini? Apa yang membawa Anda kemari?",
+        "Saya mengalami sakit kepala dan kelelahan selama seminggu terakhir.",
+        "Saya tidak enak badan.",
+        "Ada yang salah dengan saya.",
+        "Saya turut prihatin. Bisakah Anda jelaskan sakit kepalanya? Apakah terus-menerus atau datang dan pergi?",
+        "Biasanya terjadi pada sore hari dan berlangsung selama beberapa jam.",
+        "Rasanya sakit sekali.",
+        "Terkadang ya, terkadang tidak.",
+        "Apakah Anda memperhatikan sesuatu yang memicunya, seperti stres atau makanan tertentu?",
+        "Saya pikir mungkin berhubungan dengan stres di tempat kerja.",
+        "Tidak yakin.",
+        "Mungkin makanan, mungkin tidak."
+      ]
+    },
+    "hotelCheckin": {
+      "title": "Check-in Hotel",
+      "description": "Check-in ke hotel dan tangani permintaan umum.",
+      "conversations": [
+        "Selamat siang! Selamat datang di Grand Plaza Hotel. Ada yang bisa saya bantu hari ini?",
+        "Halo! Saya punya reservasi atas nama Johnson.",
+        "Saya di sini untuk check-in.",
+        "Kamar, tolong.",
+        "Biar saya periksa... Ya, saya ada reservasi Anda untuk kamar deluxe selama tiga malam. Boleh saya lihat KTP dan kartu kredit Anda?",
+        "Tentu saja, ini dia.",
+        "Ini.",
+        "Ambil ini.",
+        "Terima kasih. Semuanya sudah beres! Kamar Anda ada di lantai 5. Apakah Anda butuh bantuan dengan barang bawaan Anda?",
+        "Ya, itu akan sangat membantu. Terima kasih!",
+        "Tidak, saya tidak apa-apa.",
+        "Saya bisa urus sendiri."
+      ]
+    },
+    "businessPresentation": {
+      "title": "Presentasi Bisnis",
+      "description": "Sampaikan presentasi profesional dan tangani sesi tanya jawab.",
+      "conversations": [
+        "Terima kasih telah bergabung dengan kami hari ini. Kami menantikan presentasi Anda.",
+        "Terima kasih atas kesempatannya. Hari ini saya akan mempresentasikan strategi Q4 kami.",
+        "Biar saya mulai dengan slide-nya.",
+        "Baiklah, mari kita mulai.",
+        "Presentasi yang luar biasa! Saya punya pertanyaan - bagaimana Anda berencana mengatasi tantangan kompetitif di pasar?",
+        "Pertanyaan bagus. Kami fokus pada diferensiasi melalui inovasi dan pengalaman pelanggan.",
+        "Kami akan menanganinya.",
+        "Itu poin yang bagus.",
+        "Berapa proyeksi ROI Anda untuk inisiatif ini?",
+        "Berdasarkan analisis kami, kami memproyeksikan ROI 25% dalam tahun pertama.",
+        "Ini akan menguntungkan.",
+        "Kami mengharapkan pengembalian yang baik."
+      ]
+    }
+  }
+}

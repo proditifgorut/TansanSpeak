@@ -1,0 +1,231 @@
+{
+  "header": {
+    "appName": "Tansan Speak",
+    "xp": "XP",
+    "home": "Home",
+    "scenarios": "Scenarios",
+    "profile": "Profile"
+  },
+  "language": {
+    "en": "English",
+    "id": "Indonesian"
+  },
+  "landingPage": {
+    "title1": "Master English",
+    "title2": "Through Role-Play",
+    "subtitle": "Practice real conversations, build confidence, and speak English naturally with interactive scenarios.",
+    "startLearning": "Start Learning Free",
+    "viewProgress": "View Progress",
+    "demo": {
+      "scenarioTitle": "Coffee Shop Scenario",
+      "level": "Beginner Level",
+      "aiLine": "Good morning! What can I get for you today?",
+      "userLine": "Hi! Can I have a large cappuccino, please?",
+      "ai": "AI",
+      "you": "You"
+    },
+    "features": {
+      "title": "Why Choose Tansan Speak?",
+      "subtitle": "The most engaging way to practice English conversation.",
+      "realConversations": {
+        "title": "Real Conversations",
+        "description": "Practice with AI-powered role-play scenarios from everyday life."
+      },
+      "instantFeedback": {
+        "title": "Instant Feedback",
+        "description": "Get immediate corrections and suggestions to improve your skills."
+      },
+      "gamifiedLearning": {
+        "title": "Gamified Learning",
+        "description": "Earn XP, maintain streaks, and unlock achievements as you progress."
+      },
+      "diverseScenarios": {
+        "title": "Diverse Scenarios",
+        "description": "From coffee shops to job interviews, practice real-world situations."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Speaking?",
+      "subtitle": "Join thousands of learners improving their English every day.",
+      "button": "Explore Scenarios"
+    }
+  },
+  "scenariosPage": {
+    "title": "Practice Scenarios",
+    "subtitle": "Choose a conversation scenario to practice your English skills.",
+    "filterDifficulty": "Difficulty:",
+    "filterCategory": "Category:",
+    "all": "All",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "dailyLife": "Daily Life",
+    "professional": "Professional",
+    "healthcare": "Healthcare",
+    "travel": "Travel",
+    "unlockPrompt": "Reach Level 3 to unlock",
+    "noScenarios": "No scenarios found for the selected filters."
+  },
+  "practicePage": {
+    "backToScenarios": "Back to Scenarios",
+    "progress": "Progress",
+    "score": "Score",
+    "chooseResponse": "Choose your response:",
+    "scenarioNotFound": "Scenario not found",
+    "completion": {
+      "title": "Scenario Complete!",
+      "accuracy": "Accuracy",
+      "xpEarned": "XP Earned",
+      "tryAgain": "Try Again",
+      "moreScenarios": "More Scenarios"
+    }
+  },
+  "profilePage": {
+    "title": "Your Progress",
+    "subtitle": "Keep up the great work!",
+    "totalXP": "Total XP",
+    "dayStreak": "Day Streak",
+    "level": "Level",
+    "completed": "Completed",
+    "dailyGoal": {
+      "title": "Daily Goal",
+      "xp": "XP",
+      "achieved": "🎉 Daily goal achieved! Great job!",
+      "toGo": "{{count}} XP to reach your goal"
+    },
+    "completionRate": {
+      "title": "Completion Rate",
+      "scenarios": "scenarios",
+      "description": "{{rate}}% of scenarios completed"
+    },
+    "achievements": {
+      "title": "Achievements",
+      "firstSteps": {
+        "title": "First Steps",
+        "description": "Complete your first scenario"
+      },
+      "conversationMaster": {
+        "title": "Conversation Master",
+        "description": "Complete 5 scenarios"
+      },
+      "streakChampion": {
+        "title": "Streak Champion",
+        "description": "Maintain a 7-day streak"
+      },
+      "xpCollector": {
+        "title": "XP Collector",
+        "description": "Earn 1000 XP"
+      }
+    }
+  },
+  "scenarios": {
+    "coffeeShop": {
+      "title": "Ordering at a Coffee Shop",
+      "description": "Practice ordering your favorite drink and small talk with a barista.",
+      "conversations": [
+        "Good morning! Welcome to Sunrise Café. What can I get for you today?",
+        "Hi! Can I have a large cappuccino, please?",
+        "Give me coffee now!",
+        "I want the biggest coffee you have.",
+        "Of course! Would you like any sugar or flavoring with that?",
+        "Just sugar is fine, thanks.",
+        "No, I am good. Thank you!",
+        "Yeah, whatever you recommend.",
+        "Perfect! That will be $4.50. Will that be cash or card?",
+        "Card, please.",
+        "I will pay with card.",
+        "Here is my credit card."
+      ]
+    },
+    "jobInterview": {
+      "title": "Job Interview",
+      "description": "Navigate a professional job interview with confidence.",
+      "conversations": [
+        "Good afternoon! Please have a seat. Thank you for coming in today.",
+        "Thank you for having me. I am excited to be here!",
+        "Thanks. Let us get started.",
+        "Hi, nice office you have.",
+        "Can you tell me a bit about yourself and why you are interested in this position?",
+        "I have 5 years of experience in marketing and I am passionate about digital strategies.",
+        "I need a job and this one seems okay.",
+        "Well, I am a hard worker who likes challenges.",
+        "That is impressive. What do you consider your greatest strength?",
+        "I am really good at working under pressure and meeting tight deadlines.",
+        "I am perfect at everything I do.",
+        "I do not have any weaknesses."
+      ]
+    },
+    "restaurant": {
+      "title": "Dining at a Restaurant",
+      "description": "Order food, make special requests, and interact with waitstaff.",
+      "conversations": [
+        "Good evening! Welcome to our restaurant. Do you have a reservation?",
+        "Yes, I have a reservation for two under the name Smith.",
+        "No, but I want a table now.",
+        "I think so, maybe?",
+        "Perfect! Right this way, please. Here is your table. Can I start you off with something to drink?",
+        "Could I have a glass of water and a menu, please?",
+        "Water. Menu.",
+        "I will look at the menu first.",
+        "Of course! I will be right back with that. Are you ready to order, or do you need a few more minutes?",
+        "Could we have a few more minutes, please?",
+        "Not ready yet.",
+        "Give us some time."
+      ]
+    },
+    "doctorAppointment": {
+      "title": "Doctor Appointment",
+      "description": "Discuss symptoms and medical concerns with a healthcare professional.",
+      "conversations": [
+        "Hello! How are you feeling today? What brings you in?",
+        "I have been experiencing headaches and fatigue for the past week.",
+        "I do not feel good.",
+        "Something is wrong with me.",
+        "I am sorry to hear that. Can you describe the headaches? Are they constant or do they come and go?",
+        "They usually occur in the afternoon and last for a few hours.",
+        "They hurt a lot.",
+        "Sometimes yes, sometimes no.",
+        "Have you noticed anything that triggers them, like stress or certain foods?",
+        "I think they might be related to stress at work.",
+        "Not sure.",
+        "Maybe food, maybe not."
+      ]
+    },
+    "hotelCheckin": {
+      "title": "Hotel Check-in",
+      "description": "Check into a hotel and handle common requests.",
+      "conversations": [
+        "Good afternoon! Welcome to Grand Plaza Hotel. How may I assist you today?",
+        "Hello! I have a reservation under Johnson.",
+        "I am here to check in.",
+        "Room, please.",
+        "Let me check... Yes, I have your reservation for a deluxe room for three nights. May I see your ID and credit card, please?",
+        "Of course, here you go.",
+        "Here.",
+        "Take this.",
+        "Thank you. You are all set! Your room is on the 5th floor. Would you like help with your luggage?",
+        "Yes, that would be great. Thank you!",
+        "No, I am fine.",
+        "I can manage."
+      ]
+    },
+    "businessPresentation": {
+      "title": "Business Presentation",
+      "description": "Deliver a professional presentation and handle Q&A.",
+      "conversations": [
+        "Thank you for joining us today. We are looking forward to your presentation.",
+        "Thank you for the opportunity. Today I will be presenting our Q4 strategy.",
+        "Let me start with the slides.",
+        "Okay, here we go.",
+        "Excellent presentation! I have a question - how do you plan to address the competitive challenges in the market?",
+        "Great question. We are focusing on differentiation through innovation and customer experience.",
+        "We will handle it.",
+        "That is a good point.",
+        "What is your projected ROI for this initiative?",
+        "Based on our analysis, we are projecting a 25% ROI within the first year.",
+        "It will be profitable.",
+        "We expect good returns."
+      ]
+    }
+  }
+}
